@@ -33,3 +33,19 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1320px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.cardContent {
+  background-color: aliceblue;
+  flex-basis: 23%;
+  margin: 1%;
+  height: 200px;
+}
